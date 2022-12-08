@@ -1,3 +1,42 @@
 textarea {
     min-height: 400px;
 }
+
+.mailbox {
+    border: 1px solid rgba(207, 187, 187, 0.517);
+    padding: 3px;
+    height: 30px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.mailbox_sender {
+    width: 30%;
+    overflow-x: scroll;
+    float: left;
+    color: black;
+}
+
+.mailbox_sender::-webkit-scrollbar {
+    display: none;
+}
+
+.mailbox_subject {
+    width: 40%;
+    overflow-x: scroll;
+    margin-left:2%;
+    float: left;
+    color: #007bff; 
+}
+
+.mailbox_subject::-webkit-scrollbar {
+    display: none;
+}
+
+.mailbox_time {
+    width: 20%;
+    float: right;
+    margin-left: 2%;
+    color: grey;
+    font-weight: lighter;
+}
