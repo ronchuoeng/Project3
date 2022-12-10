@@ -40,3 +40,8 @@ textarea {
     color: grey;
     font-weight: lighter;
 }
+
+#container-head {
+    float: left;
+    font-weight: bold;
+}
