@@ -10,14 +10,19 @@ textarea {
     overflow: hidden;
 }
 
-.mailbox_sender {
+.mailbox:hover{
+    border: 1px solid #007bff;
+    cursor: pointer;
+}
+
+.mailbox_header {
     width: 30%;
     overflow-x: scroll;
     float: left;
     color: black;
 }
 
-.mailbox_sender::-webkit-scrollbar {
+.mailbox_header::-webkit-scrollbar {
     display: none;
 }
 
@@ -44,4 +49,18 @@ textarea {
 #container-head {
     float: left;
     font-weight: bold;
+}
+
+#archive {
+    float: left;
+    margin-left: 5px;
+}
+
+#unarchive {
+    float: left;
+    margin-left: 5px;
+}
+
+#reply {
+    float:left;
 }
